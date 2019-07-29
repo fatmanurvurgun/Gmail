@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="0dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp">
+
+
+
+            <TextView
+                android:id="@+id/kimden"
+                style="@style/bigHeadingTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="kimden:"
+                android:textSize="14sp"
+                android:textColor="#929092" />
+
+
+            <TextView
+                android:id="@+id/kimcevap"
+                style="@style/bigHeadingTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="greenpeace"
+                android:textSize="14sp"
+                android:textColor="#1E90FF"
+                android:paddingLeft="16dp"
+                android:paddingStart="16dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="0dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="30dp">>
+
+            <TextView
+                android:id="@+id/kime"
+                style="@style/bigHeadingTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="kime:"
+                android:textSize="14sp"
+                android:textColor="#929092" />
+
+
+            <TextView
+                android:id="@+id/kimecevap"
+                style="@style/bigHeadingTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="vurgunfatmanur@gmail.com "
+                android:textSize="14sp"
+                android:textColor="#1E90FF"
+                android:paddingLeft="16dp"
+                android:paddingStart="16dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/message_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="message_subject"
+            android:textSize="20sp"
+            style="@style/bigHeadingTextStyle"
+            android:textColor="#3e3e3e"/>
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/sender_profile_picture"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                android:contentDescription="profile_picture" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp">
+
+                <TextView
+                android:id="@+id/sender_name"
+                style="@style/headingTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="sender_name"
+                android:textColor="#3e3e3e" />
+
+                <TextView
+                    android:id="@+id/timeTV"
+                    style="@style/subHeadingTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="10.08.1993"
+                    android:textColor="#929092" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/isfavor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_star_yellow_a700_24dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/message_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="message_body"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#3e3e3e"
+            android:paddingBottom="16dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
